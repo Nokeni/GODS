@@ -1,0 +1,16 @@
+# GODS Configuration file
+
+# Web server configuration
+WEB_PORT: 51542
+WEB_DOMAIN: localhost
+
+# Database configuration
+DB_PATH: internal/db/GODS.db
+
+# JWT encryption key
+JWT_KEY: !!ChangeMeToRandomString!!
+
+# Admin user informations
+ADMIN_NAME: admin
+ADMIN_EMAIL: admin@admin.com
+ADMIN_PASSWORD: Admin!123
